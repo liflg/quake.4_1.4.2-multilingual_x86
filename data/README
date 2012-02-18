@@ -1,0 +1,93 @@
+Quake 4 (TM) GNU/Linux
+==================
+
+Installation instructions:
+--------------------------
+
+A licensed copy of Quake 4 (TM) retail for Windows(r) is required.
+You will copy the assets files from it and use the CD key.
+
+PLEASE NOTE:  The Linux version of Quake 4 (TM) is NOT supported by
+Activision Customer Support.
+
+The following files must be copied from the install CDs [1]
+to your q4base/ directory ( md5 sums provided as reference ):
+
+If you copy them before running the installer you will need to
+create the paths, by default /usr/local/games/quake4/q4base
+If you copy after running the installer, make sure not to
+replace any paks the installer might have provided.
+
+a9f6a2e4bf8e193591954f75d1d39f85  game000.pk4
+b201b914167f47061fa5f975af527122  pak001.pk4
+dabe2c88e004198947431250e3f4ca1d  pak002.pk4
+8573f05af4c9568880cc464d06292079  pak003.pk4
+12ff4006a7f7181ac16835d05c59905f  pak004.pk4
+3576213f4e00f06baf3cd5de089a538a  pak005.pk4
+aec7bb418b9a86256f9e5daee894dee2  pak006.pk4
+0f53b4fb4df2c14fcd10012baf8b2f87  pak007.pk4
+b099d75869f0ffcbcb8e5166374af345  pak008.pk4
+cb2b44bf573559dc19b488d9e1e5bec3  pak009.pk4
+d024073349dc917b4feab49e6abc417b  pak010.pk4
+98c854d94ce1da5272952b77821823df  pak011.pk4
+e77a2fda6656495d38773e05bbffda33  pak012.pk4
+669d6d9a30b798d19434972475b98c53  zpak_english.pk4
+2cabddd692e214c78c20a464da43f1ef  zpak_french.pk4
+4ee7eb637cde6bcfe3a9ffac5e4579dd  zpak_italian.pk4
+36eee38e6c2dce12986f7192a5a996e5  zpak_spanish.pk4
+
+Note: the Linux installer will reinstall the game*.pk4.
+
+Note: the German version of the game uses a completely
+different set of assets. See the FAQ ( URL below ) for
+details.
+
+Start the game with the command: quake4
+Start the SMP-accelerated client with: quake4-smp ( new in v1.2 )
+Start the dedicated server with the command: quake4-dedicated
+
+For troubleshooting and help, see:
+http://zerowing.idsoftware.com/linux/
+
+Minimum system requirements:
+----------------------------
+
+- GNU/Linux system
+- Pentium(r) 4 2.0 GHz or Athlon(tm) XP 2000+ processor
+- 512MB RAM
+- Kernel 2.4, 2.6 is recommended
+- glibc >= 2.2.4
+
+3D acceleration ( not required for dedicated server ):
+   - SDL >= 1.2 [2]
+   - latest OpenGL drivers, correctly configured
+   - ATI(r) Radeon(r) 9700
+   - ATI Radeon 9800
+   - ATI Radeon X300 series
+   - ATI Radeon X550 series
+   - ATI Radeon X600 series
+   - ATI Radeon X700 series
+   - ATI Radeon X800 series
+   - ATI Radeon X850 series
+   - Nvidia(r) GeForce(TM) 3/Ti series
+   - Nvidia GeForce 4/Ti series
+   - Nvidia GeForce FX series
+   - Nvidia GeForce 6 series
+   - Nvidia GeForce 7 series
+
+Audio ( not required for dedicated server ):
+   - sound card with OSS or Alsa support, stereo and surround
+     sound are supported with both APIs
+   Alsa >= 1.0.6 is required
+
+Multiplayer:
+
+   - Internet (TCP/IP) and LAN (TCP/IP) play supported
+   - Internet play requires broadband connection
+
+--
+
+[1] - note that if you have the DVD release, all the files are in
+the same directory. Otherwise they are spread out on each CDs.
+For the DVD edition, the files are in Setup/Data/q4base
+[2] - http://www.libsdl.org/
